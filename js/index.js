@@ -1,8 +1,6 @@
 function verArreglos() {
-    let arreglos = "Arreglos disponibles: \n" +
-                    "1.- Arreglo 1 \n" +
-                    "2.- Arreglo 2 \n" +
-                    "3.- Arreglo 3"
+    const arreglos = ["Arreglo 1", "Arreglo 2", "Arreglo 3"]
+    
 
     let respuesta = prompt("Ingresa el # de Arreglo para ver el precio: \n" + arreglos)
     switch (parseInt(respuesta)) {
